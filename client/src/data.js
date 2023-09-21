@@ -1,4 +1,4 @@
-module.exports = [
+const points = [
     {
         "name": "M/s.Kerala Enviro Infrastructure Ltd",
         "latitude": 9.982322819186003,
@@ -1718,3 +1718,5 @@ module.exports = [
         }
     }
 ];
+
+export default points;

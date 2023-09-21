@@ -10,6 +10,15 @@ const LocationSchema = mongoose.Schema(
         pincode: Number,
         address: String,
         installedCapacityMTA: Number,
+        location: {
+            type: {
+                type: String,
+                enum: ['Point'],
+            },
+            coordinates: {
+                type: [Number],
+            }
+        },    
         contact: {
             phone_no: String,
             website: String
@@ -17,6 +26,18 @@ const LocationSchema = mongoose.Schema(
     },
     { timeStamps: true }
 );
+
+LocationSchema.index({ location: '2dsphere' });
+
+LocationSchema.pre('save', async function (next) {
+    this.location = {
+        type: 'Point',
+        coordinates: [this.longitude, this.latitude]
+    }
+    next();
+});
+
+
 
 const Location = mongoose.model("Location", LocationSchema);
 module.exports = Location;

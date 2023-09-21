@@ -22,7 +22,23 @@ mongoose
 async function seedDatabase() {
     try {
         await Location.deleteMany({});
-        await Location.insertMany(data);
+        for (let d of data) {
+            const point = new Location({
+                name: d.name,
+                latitude: d.latitude,
+                longitude: d.longitude,
+                city: d.city,
+                state: d.state,
+                pincode: d.pincode,
+                address: d.address,
+                installedCapacityMTA: d.installedCapacityMTA,
+                contact: {
+                    phone_no: d.contact.phone_no,
+                    website: d.contact.website
+                }
+        })
+            await point.save();
+        }
 
         mongoose.connection.close();
         
