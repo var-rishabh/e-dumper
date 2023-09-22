@@ -36,10 +36,10 @@ const hero = () => {
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         Are you looking for a convenient and responsible way to dispose of your electronic waste (e-waste)? E-Waste Dumper Locator is here to assist you in finding the nearest e-waste disposal facilities, ensuring that your e-waste is handled in an environmentally friendly and ethical manner.
                     </p>
-                    <div className="mt-10 flex items-center justify-center gap-x-6">
+                    <div className="mt-10 z-50 flex items-center justify-center">
                         <a
+                            className="cursor-pointer rounded-md bg-green-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm"
                             href="/edumpers"
-                            className="rounded-md bg-green-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             Find your nearest E-Dumper
                         </a>

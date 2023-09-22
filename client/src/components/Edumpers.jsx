@@ -98,10 +98,8 @@ const Edumpers = () => {
                 edumper.latitude,
                 edumper.longitude
             );
-            console.log(distance);
             return distance <= 100;
         });
-        console.log(nearLocation);
 
         setEdumpers(nearLocation);
 
