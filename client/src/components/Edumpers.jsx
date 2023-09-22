@@ -1,14 +1,10 @@
 import React from "react";
-import axios from "axios";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import data from "./data";
-
 
 const getEdumpers = async () => {
     return data;
 }
-
 
 import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => {
@@ -18,19 +14,21 @@ const AnyReactComponent = ({ text }) => {
             style={{
                 position: "relative",
             }}>
-            <img src="https://static.vecteezy.com/system/resources/previews/000/630/479/original/vector-trash-can-icon-symbol-illustration.jpg" alt="edumper" width="25px" height="25px" />
+            <img width="40" height="40" src="https://img.icons8.com/fluency/48/recycle-bin.png" alt="recycle-bin" />
             <div
                 style={{
                     backgroundColor: "white",
-                    borderRadius: "5px",
+                    borderRadius: "10px",
                     boxShadow: "0 0 5px 0 rgba(0, 0, 0, 0.2)",
                     position: "absolute",
                     top: "-60px",
                     left: "-60px",
                     display: isShown ? "inline-block" : "none",
                     text: "center",
-                    padding: "5px",
-                    fontSize: "12px",
+                    padding: "8px",
+                    width: "150px",
+                    fontSize: "15px",
+                    zIndex: "9999",
                 }}>
                 {text}
             </div>
@@ -50,14 +48,11 @@ const Edumpers = () => {
         });
         // get location
         navigator.geolocation.getCurrentPosition(function (position) {
-            console.log("Latitude is :", position.coords.latitude);
-            console.log("Longitude is :", position.coords.longitude);
             setLocation({
                 latitude: position.coords.latitude,
                 longitude: position.coords.longitude,
             });
         });
-        console.log(location);
         return () => {
             setEdumpers([]);
             setLoading(true);
@@ -123,29 +118,60 @@ const Edumpers = () => {
     return (
         <>
             <Navbar />
-            <div style={{ height: '80vh', width: '100%' }}>
-                <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyAT4dxI0StYMW2LckMNthtlmCoWypl4pXI" }}
-                    center={defaultProps.center}
-                    zoom={defaultProps.zoom}
-                >
-                    {edumpers?.map((edumper) => (
-                        <AnyReactComponent
-                            lat={edumper.latitude}
-                            lng={edumper.longitude}
-                            text={edumper.name}
-                            key={edumper.id}
-                        />
-                    ))}
-                </GoogleMapReact>
 
-                <div className="container">
-                    <button className="btn btn-primary" style={{ marginTop: "10px" }}
-                    onClick={getNearestEdumpers}
-                    >Get Nearest Edumpers</button>
+            <section className="bg-white-900 text-black">
+                <div className="mx-auto max-w-screen-xl mt-10" >
+                    <div className="mx-auto max-w-3xl text-center">
+                        <h1
+                            className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+                        >
+                            Find Your Nearest E-Dumper!
+                        </h1>
+
+                        <a
+                            className="mt-5 mb-5 cursor-pointer inline-flex items-center gap-2 rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                            onClick={getNearestEdumpers}
+                        >
+                            <span className="text-sm font-medium"> Click Here </span>
+                            <svg
+                                className="h-5 w-5 rtl:rotate-180"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+
+
+
+                    <div style={{ height: '70vh', width: '100%', alignItems: "center" }}>
+                        <GoogleMapReact
+                            mapContainerClassName="rounded-xl"
+                            bootstrapURLKeys={{ key: "AIzaSyAT4dxI0StYMW2LckMNthtlmCoWypl4pXI" }}
+                            center={defaultProps.center}
+                            zoom={defaultProps.zoom}
+                        >
+                            {edumpers?.map((edumper) => (
+                                <AnyReactComponent
+                                    lat={edumper.latitude}
+                                    lng={edumper.longitude}
+                                    text={edumper.name}
+                                    key={edumper.id}
+                                />
+                            ))}
+                        </GoogleMapReact>
+                    </div>
                 </div>
-            </div>
-            <Footer />
+            </section>
+
         </>
     )
 };
