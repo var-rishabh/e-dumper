@@ -112,7 +112,6 @@ const Edumpers = () => {
         });
     };
 
-
     return (
         <>
             <Navbar />
@@ -148,12 +147,10 @@ const Edumpers = () => {
                         </a>
                     </div>
 
-
-
                     <div style={{ height: '70vh', width: '100%', alignItems: "center" }}>
                         <GoogleMapReact
                             mapContainerClassName="rounded-xl"
-                            bootstrapURLKeys={{ key: "AIzaSyAT4dxI0StYMW2LckMNthtlmCoWypl4pXI" }}
+                            bootstrapURLKeys={{ key: import.meta.env.VITE_GOOGLE_API_KEY }}
                             center={defaultProps.center}
                             zoom={defaultProps.zoom}
                         >
@@ -169,7 +166,6 @@ const Edumpers = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 };
