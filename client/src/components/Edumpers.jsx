@@ -150,7 +150,7 @@ const Edumpers = () => {
                     <div style={{ height: '70vh', width: '100%', alignItems: "center" }}>
                         <GoogleMapReact
                             mapContainerClassName="rounded-xl"
-                            bootstrapURLKeys={{ key: import.meta.env.VITE_GOOGLE_API_KEY }}
+                            bootstrapURLKeys={{ key: process.env.VITE_GOOGLE_API_KEY }}
                             center={defaultProps.center}
                             zoom={defaultProps.zoom}
                         >
