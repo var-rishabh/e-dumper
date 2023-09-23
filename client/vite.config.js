@@ -6,7 +6,7 @@ export default defineConfig(({ command, mode }) => {
   return {
     plugins: [react()],
     define: {
-      __APP_ENV__: JSON.stringify(env.APP_ENV),
+      __APP_ENV__: JSON.stringify(env.VITE_VERCEL_ENV),
     },
   }
 })
