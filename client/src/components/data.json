@@ -1717,5 +1717,425 @@
             "phone_number": "09906231115",
             "website": ""
         }
+    },
+    {
+        "name": " M/s. Green Waves Environmental Solution, Sy. No. 43/1, Mindi (V), Gajuwaka (M), Visakhapatnam District",
+        "latitude": 17.70360158118255,
+        "longitude": 83.21141829386264,
+        "city": "Gajuwaka",
+        "state": "Andhra Pradesh",
+        "pincode": 530012,
+        "address": "P636+8HX, Near studio,Mindhi Village,, Gajuwaka,Vishakapatnam, Andhra Pradesh 530012",
+        "installedCapacityMTA": 480,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "Binbag Recycling Services Pvt Ltd ",
+        "latitude": 13.724637736649797,
+        "longitude": 77.50052913980913,
+        "city": "Thumakunta",
+        "state": "Andhra Pradesh",
+        "pincode": 515211,
+        "address": "60, Andhra Pradesh Industrial Infrastructure Corporation Industrial Park, Thumakunta, Andhra Pradesh 515211",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "WORLD SCRAP RECYCLING SOLUTIONS PVT. LTD ",
+        "latitude": 13.631922439007012,
+        "longitude": 79.48443983795647,
+        "city": "Tirupati",
+        "state": "Andhra Pradesh",
+        "pincode": 517506,
+        "address": "SHED 10,11,12 & 50 , RENIGUNTA INDUSTRIAL ESTATE, URBAN MANDAL, Tirupati, Andhra Pradesh 517506 ",
+        "installedCapacityMTA": 18000,
+        "contact": {
+            "phone_no": "08778458025",
+            "website": "http://www.worldscraprecycling.com/"
+        }
+    },
+    {
+        "name": "M/s Muskan Technologies ",
+        "latitude": 28.522934581833123,
+        "longitude": 77.282280167207,
+        "city": "New Delhi",
+        "state": "New Delhi",
+        "pincode": 110020,
+        "address": "96, Pocket D, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020",
+        "installedCapacityMTA": 600,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "E- Process House",
+        "latitude": 20.363595547551963,
+        "longitude": 72.94007913810916,
+        "city": "Vapi",
+        "state": "Gujarat",
+        "pincode": 396195,
+        "address": "Plot No. 136 / F - 1, 2nd Phase, GIDC, Vapi, GIDC, Vapi, Gujarat 396195",
+        "installedCapacityMTA": 277,
+        "contact": {
+            "phone_no": "02606532050",
+            "website": "http://www.eprocesshouse.com/"
+        }
+    },
+    {
+        "name": "Eximo Recycling Pvt Ltd ",
+        "latitude": 22.32738077359331,
+        "longitude": 73.2224834317967,
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "pincode": 390022,
+        "address": "Booster Pump Room, 107/5 Narayan Resicom, opposite Khodiyar Nagar, near Khodiyar nagar, New, Karelibagh, Vadodara, Gujarat 390022",
+        "installedCapacityMTA": 900,
+        "contact": {
+            "phone_no": "07567320361",
+            "website": "http://www.eximorecycling.in/"
+        }
+    },
+    {
+        "name": "Basant Cleanenviro Limited ",
+        "latitude": 23.018934172080808,
+        "longitude": 72.50288598687348,
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": 380051,
+        "address": "Earth Arise, 404, near YMCA Club, Prahlad Nagar, Ahmedabad, Gujarat 380051",
+        "installedCapacityMTA": 5400,
+        "contact": {
+            "phone_no": "07929708079",
+            "website": "http://bcel.in/"
+        }
+    },
+    {
+        "name": "Eco Green Recycling ",
+        "latitude": 20.34637921782333,
+        "longitude": 73.21789961513696,
+        "city": "Kaprada",
+        "state": "Gujarat",
+        "pincode": 396201,
+        "address": "Plot No.4, Near Dynamic Textile, Ozar Road Motapondha, Kaprada, Gujarat 396201",
+        "installedCapacityMTA": 500,
+        "contact": {
+            "phone_no": "02603292928",
+            "website": ""
+        }
+    },
+    {
+        "name": " Surbine Recycling",
+        "latitude": 22.412002940890993,
+        "longitude": 70.0596445381671,
+        "city": "Jamnagar",
+        "state": "Gujarat",
+        "pincode": 361004,
+        "address": "  765, G.I.D.C. Phase 2, GIDC Phase-2, Dared, Jamnagar, Gujarat 361004",
+        "installedCapacityMTA": 1500,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " Ecotime Industries",
+        "latitude": 21.03772006349207,
+        "longitude": 72.9278514357407,
+        "city": "Navsari",
+        "state": "Gujarat",
+        "pincode": 396415,
+        "address": " Plot No 98 & 99-Sparkle Industrial Estate, Navsari, Gujarat 396415 ",
+        "installedCapacityMTA": 144,
+        "contact": {
+            "phone_no": "09913117758",
+            "website": "http://www.eco-time.in/"
+        }
+    },
+    {
+        "name": "Mahaarana Industries Pvt Ltd ",
+        "latitude": 23.039348636681883,
+        "longitude": 72.57098416702202,
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": 380009,
+        "address": " 204, Corporate House, Income Tax, near Dinesh Hall, opp. Torrent House, Ahmedabad, Gujarat 380009 ",
+        "installedCapacityMTA": 16585,
+        "contact": {
+            "phone_no": "08866025118",
+            "website": "https://mahaarana.com/"
+        }
+    },
+    {
+        "name": "GL Recycling LLP ",
+        "latitude": 22.04890188658521,
+        "longitude": 70.8606495976792,
+        "city": "Kotda Sangani",
+        "state": "Gujarat",
+        "pincode": 360030,
+        "address": " Survey No. 108, Soliya Rd, Kotda Sangani, Gujarat 360030 ",
+        "installedCapacityMTA": 14500,
+        "contact": {
+            "phone_no": "09328811110",
+            "website": "http://glrecycling.co.in/"
+        }
+    },
+    {
+        "name": " Group Tenplus",
+        "latitude": 15.539895371214323,
+        "longitude": 73.78444735148632,
+        "city": "Saligao",
+        "state": "Goa",
+        "pincode": 403511,
+        "address": "Beth Shalom Abreovaddo, Saligao, Goa 403511",
+        "installedCapacityMTA": 50,
+        "contact": {
+            "phone_no": "09823118321",
+            "website": "http://www.grouptenplus.com/"
+        }
+    },
+    {
+        "name": "SIMRAN INFOTECH ",
+        "latitude": 23.487518476960304,
+        "longitude": 86.31203636518471,
+        "city": "Baramasya",
+        "state": "Jharkhand",
+        "pincode": 828134,
+        "address": "F8P6+WR5, Purulia - Dhanbad Rd, Baramasya, Jharkhand 828134",
+        "installedCapacityMTA": 360,
+        "contact": {
+            "phone_no": "09679166687",
+            "website": ""
+        }
+    },
+    {
+        "name": " Honey Disposal Store",
+        "latitude": 30.407630186860068,
+        "longitude": 76.79684414455764,
+        "city": "Ambala",
+        "state": "Haryana",
+        "pincode": 134003,
+        "address": "Plot No:67-68, Jarout Road, Village:Mandour, area, Ambala, Haryana 134003",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " Exigo Recycling Pvt. Ltd.",
+        "latitude": 29.426217414006015,
+        "longitude": 76.99302665559942,
+        "city": "Azizullapur",
+        "state": "Haryana",
+        "pincode": 132103,
+        "address": "Barsat Rd, Cheema Enclave, Noorwala, Panipat, Azizullapur, Haryana 132103",
+        "installedCapacityMTA": 18000,
+        "contact": {
+            "phone_no": "09650676997",
+            "website": "http://www.exigorecycling.com/"
+        }
+    },
+    {
+        "name": "Giriraj Metal ",
+        "latitude": 28.882527448973082,
+        "longitude": 76.55214210381867,
+        "city": "Rohtak",
+        "state": "Haryana",
+        "pincode": 124001,
+        "address": "P. No. 39 HSIIDC, IE, Kutana, Rohtak",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " RENU RECYCLING COMPANY",
+        "latitude": 28.683827332155673,
+        "longitude": 76.95598838070545,
+        "city": "Bahadurgarh",
+        "state": "Haryana",
+        "pincode": 124507,
+        "address": "1257, MIE Part-B, Bahadurgarh, Haryana 124507",
+        "installedCapacityMTA": 1800,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " AMN EWASTE MANAGEMENT PRIVATE LIMITED",
+        "latitude": 28.396791207657547,
+        "longitude": 77.34194437686412,
+        "city": "Faridabad",
+        "state": "Haryana",
+        "pincode": 121004,
+        "address": "808, 8th Floor, Puri 81 High Street, Sector 81, Faridabad, Haryana 121004",
+        "installedCapacityMTA": 290,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "GLOBAL WASTE SOLUTION ",
+        "latitude": 29.08710894767554,
+        "longitude": 77.08261512304895,
+        "city": "Sonipat",
+        "state": "Haryana",
+        "pincode": 136135,
+        "address": "33PM+P3M, Dhatauri, Ramnagar Rd, Haryana 136135",
+        "installedCapacityMTA": 9490,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "M/s Earth Sense Recycle Pvt Ltd ",
+        "latitude": 28.369416001038967,
+        "longitude": 76.9239306448443,
+        "city": "Gurugram",
+        "state": "Haryana",
+        "pincode": 122052,
+        "address": "Plot no-100, Sector 5, Imt Manesar, Gurugram, Haryana 122052",
+        "installedCapacityMTA": 2160,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " E-Friendly Waste Recyclers",
+        "latitude": 12.945920059204406,
+        "longitude": 77.52554903129374,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": 560039,
+        "address": "1st Main Rd, Metro Lay Out, Nayanda Halli, Bengaluru, Karnataka 560039",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "09740057778",
+            "website": "https://www.efriendly.co.in/"
+        }
+    },
+    {
+        "name": " AGK ENTERPRISES",
+        "latitude": 12.338870865077777,
+        "longitude": 76.64994769560558,
+        "city": "Mysuru",
+        "state": "Karnataka",
+        "pincode": 570015,
+        "address": "Unit- 1 No .33/A Industrial A' layout, near srinivasa circle, Bannimantap, Mysuru, Karnataka 570015",
+        "installedCapacityMTA": 360,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": "MOOGAMBIGAI METAL REFINERIES ",
+        "latitude": 12.956816378121324,
+        "longitude": 74.82113006492935,
+        "city": "Mangaluru",
+        "state": "Karnataka",
+        "pincode": 575011,
+        "address": "132 A, Industrial Area Rd, New Mangalore, Industrial Area, Baikampady, Mangaluru, Karnataka 575011",
+        "installedCapacityMTA": 1248,
+        "contact": {
+            "phone_no": "09901148952",
+            "website": "http://mmrrecycling.in/"
+        }
+    },
+    {
+        "name": " K.G. Nandini Enterprises",
+        "latitude": 12.954418826145286,
+        "longitude": 77.52530096861453,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": 560039,
+        "address": "WGXF+7WH, Azeez Sait Industrial Estate, Chandra Layout, Bengaluru, Karnataka 560039",
+        "installedCapacityMTA": 7200,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": ""
+        }
+    },
+    {
+        "name": " NPEWASTE Pvt. Ltd.",
+        "latitude": 12.28392919144297,
+        "longitude": 76.5609136543858,
+        "city": "Belawadi",
+        "state": "Karnataka",
+        "pincode": 570026,
+        "address": "96, Koorgalli, Post, Industial Area, Belawadi, Karnataka 570026",
+        "installedCapacityMTA": 1200,
+        "contact": {
+            "phone_no": "09845623188",
+            "website": "http://npewaste.com/"
+        }
+    },
+    {
+        "name": "ECO TREND RECYCLERS ",
+        "latitude": 13.004069363067583,
+        "longitude": 77.46716638027355,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": 562162,
+        "address": "81/A and 82/A KACHOHALLI INDUSTRIAL ESTATE LAKSHMIPURA POST DASANAPURA, HOBLI, Bengaluru, Karnataka 562162",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "08029559996",
+            "website": "http://ecotrendrecyclers.in/"
+        }
+    },
+    {
+        "name": "Ikon Recycler ",
+        "latitude": 12.986598023760195,
+        "longitude": 77.52133744385276,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": 560079,
+        "address": "#No, 5, 2 nd Cross 2nd main Road, Magadi Main Rd, Pete Channappa Industrial Estate, Kamakshipalya, Bengaluru, Karnataka 560079",
+        "installedCapacityMTA": 300,
+        "contact": {
+            "phone_no": "09611813744",
+            "website": "http://ikonrecycler.com/"
+        }
+    },
+    {
+        "name": " Recycler India MGT LLP",
+        "latitude": 12.672843407958053,
+        "longitude": 77.43674281462879,
+        "city": "Ramanagara",
+        "state": "Karnataka",
+        "pincode": 562112,
+        "address": "689,Harohalli 3rd stage industrial Area, Kanakapura Rd, Ramanagara, Karnataka 562112",
+        "installedCapacityMTA": 5072,
+        "contact": {
+            "phone_no": "18001029918",
+            "website": "https://recyclerindiamgt.com/"
+        }
+    },
+    {
+        "name": " EnviroTech IT solutions",
+        "latitude": 12.988184100628375,
+        "longitude": 77.5206011514374,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": 560079,
+        "address": "136, shiva farm, Magadi Main Rd, Vrushabhavathi Nagar, Bengaluru, Karnataka 560079",
+        "installedCapacityMTA": 312,
+        "contact": {
+            "phone_no": "8888888888",
+            "website": "http://www.envirotechitsolutions.com/"
+        }
     }
 ]

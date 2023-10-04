@@ -1,5 +1,8 @@
 import hero1 from "../assets/images/hero1.png"
 import MOE_Logo from "../assets/images/MOE_Logo.png"
+import blog1 from "../assets/images/blog1.jpg"
+import blog2 from "../assets/images/blog2.jpg"
+import blog3 from "../assets/images/test4.jpg"
 
 const hero = () => {
     return (
@@ -79,7 +82,7 @@ const hero = () => {
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
                             <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                                <img className="text-green-500 w-15 h-15 mb-3 inline-block" width="80" height="80" src="https://img.icons8.com/dotty/80/recycle-bin.png" alt="recycle-bin"/>
+                                <img className="text-green-500 w-15 h-15 mb-3 inline-block" width="80" height="80" src="https://img.icons8.com/dotty/80/recycle-bin.png" alt="recycle-bin" />
                                 <h2 className="title-font font-medium text-3xl text-green-600">75.4%</h2>
                                 <p className="mt-4 text-10 leading-relaxed">of E-Waste is collected only.</p>
                             </div>
@@ -116,88 +119,93 @@ const hero = () => {
             </section>
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
-                    <div className="flex w-full mb-5 ml-2 flex-wrap">
-                        <h1 className="text-4xl font-medium title-font text-gray-900">Blogs</h1>
+                    <div className="flex flex-wrap -mx-4">
+                        <div className="w-full px-4">
+                            <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
+                                <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
+                                    Our Blogs
+                                </h2>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 lg:w-1/3">
-                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Reduce Laptops Carbon Footprint Through IT Asset Disposal</h1>
-                                <p className="leading-relaxed mb-3">Laptops and computers have become a necessity in the digital age. On the other hand, laptop production, utilization, and disposal contribute to carbon emissions and environmental degradation.</p>
-                                <a href="/blogs" className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="M5 12h14"></path>
-                                        <path d="M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                                    <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>2.2K
-                                    </span>
-                                    <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                        </svg>6
-                                    </span>
+
+                    <div className="flex flex-wrap -mx-4">
+                        <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-10 max-w-[370px]">
+                                <div className="mb-8 overflow-hidden rounded">
+                                    <img src={blog1} alt="" className="w-full" />
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a
+                                            href="/#"
+                                            className="inline-block mb-4 text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                                        >
+                                            Reduce Laptops Carbon Footprint Through IT Asset Disposal
+                                        </a>
+                                    </h3>
+                                    <p className="text-base text-body-color">Laptops and computers have become a necessity in the digital age. On the other hand, laptop production, utilization, and disposal contribute to carbon emissions and environmental degradation.</p>
+                                    <a href="/blogs" className="mt-5 text-indigo-500 inline-flex items-center">Learn More
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="p-4 lg:w-1/3">
-                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Green Gadgets: Exploring Eco-Friendly Electronics Options</h1>
-                                <p className="leading-relaxed mb-3">In a generation described by means of speedy technological improvements, the demand for electronics is soaring. However, with this surge in innovation comes increasing difficulties for the environmental effect of digital gadgets.</p>
-                                <a href="/blogs" className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="M5 12h14"></path>
-                                        <path d="M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                                    <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>560
-                                    </span>
-                                    <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                        </svg>6
-                                    </span>
+                        <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-10 max-w-[370px]">
+                                <div className="mb-8 overflow-hidden rounded">
+                                    <img src={blog2} alt="" className="w-full" />
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a
+                                            href="/#"
+                                            className="inline-block mb-4 text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                                        >
+                                            Green Gadgets: Exploring Eco-Friendly Electronics Options
+                                        </a>
+                                    </h3>
+                                    <p className="text-base text-body-color">In a generation described by means of speedy technological improvements, the demand for electronics is soaring. However, with this surge in innovation comes increasing difficulties for the environmental effect of digital gadgets.</p>
+                                    <a href="/blogs" className="mt-5 text-indigo-500 inline-flex items-center">Learn More
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="p-4 lg:w-1/3">
-                            <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Understanding e-waste: Types and consequences</h1>
-                                <p className="leading-relaxed mb-3">In the present scenario, technological advancements have become a part of our daily lives. As we refurbish our smartphones, laptops, and other electronic devices, we create a lot of electronic waste or e-waste.</p>
-                                <a href="/blogs" className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="M5 12h14"></path>
-                                        <path d="M12 5l7 7-7 7"></path>
-                                    </svg>
-                                </a>
-                                <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                                    <span className="text-gray-400 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                                            <circle cx="12" cy="12" r="3"></circle>
-                                        </svg>1.5K
-                                    </span>
-                                    <span className="text-gray-400 inline-flex items-center leading-none text-sm">
-                                        <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                                        </svg>6
-                                    </span>
+                        <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-10 max-w-[370px]">
+                                <div className="mb-8 overflow-hidden rounded">
+                                    <img src={blog3} alt="" className="w-full" />
+                                </div>
+                                <div>
+                                    <h3>
+                                        <a
+                                            href="/#"
+                                            className="inline-block mb-4 text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                                        >
+                                            Understanding e-waste: Types and consequences
+                                        </a>
+                                    </h3>
+                                    <p className="text-base text-body-color">In the present scenario, technological advancements have become a part of our daily lives. As we refurbish our smartphones, laptops, and other electronic devices, we create a lot of electronic waste or e-waste.</p>
+                                    <a href="/blogs" className="mt-5 text-indigo-500 inline-flex items-center">Learn More
+                                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
         </div>
     )
 };

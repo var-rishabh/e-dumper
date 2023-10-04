@@ -7,8 +7,10 @@ const getEdumpers = async () => {
 }
 
 import GoogleMapReact from 'google-map-react';
-const AnyReactComponent = ({ text }) => {
+const AnyReactComponent = (props) => {
     const [isShown, setIsShown] = React.useState(false);
+    const { text } = props;
+
     return (
         <div onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}
             style={{
@@ -41,6 +43,7 @@ const Edumpers = () => {
     const [loading, setLoading] = React.useState(true);
     const [location, setLocation] = React.useState({});
     const [nearestEdumpers, setNearestEdumpers] = React.useState(false);
+
     React.useEffect(() => {
         getEdumpers().then((data) => {
             setEdumpers(data);
@@ -74,8 +77,8 @@ const Edumpers = () => {
     }
 
     const getDistanceFromLatLonInKm = (lat1, lon1, lat2, lon2) => {
-        var R = 6371; // Radius of the earth in km
-        var dLat = deg2rad(lat2 - lat1); // deg2rad below
+        var R = 6371;
+        var dLat = deg2rad(lat2 - lat1);
         var dLon = deg2rad(lon2 - lon1);
         var a =
             Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -84,13 +87,11 @@ const Edumpers = () => {
             Math.sin(dLon / 2) *
             Math.sin(dLon / 2);
         var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        // Distance in km
         return R * c;
     };
 
     const getNearestEdumpers = async () => {
         setNearestEdumpers(true);
-        // ALL THE LOCATION IN 100 KM RADIUS
         const nearLocation = edumpers.filter((edumper) => {
             const distance = getDistanceFromLatLonInKm(
                 location.latitude,
@@ -118,36 +119,36 @@ const Edumpers = () => {
 
             <section className="bg-white-900 text-black">
                 <div className="mx-auto max-w-screen-xl mt-10" >
-                    <div className="mx-auto max-w-3xl text-center">
-                        <h1
-                            className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
-                        >
-                            Find Your Nearest E-Dumper!
+                    <div className="mx-auto max-w-1xl text-left">
+                        <h1 className="text-4xl font-bold tracking-tight text-gray-900">
+                            Find your nearest Edumpers
                         </h1>
-
-                        <a
-                            className="mt-5 mb-5 cursor-pointer inline-flex items-center gap-2 rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                            onClick={getNearestEdumpers}
-                        >
-                            <span className="text-sm font-medium"> Click Here </span>
-                            <svg
-                                className="h-5 w-5 rtl:rotate-180"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                                />
-                            </svg>
-                        </a>
+                        <div className="relative text-green-400 rounded py-3 text-md leading-6">
+                            Make sure your location is on.
+                        </div>
                     </div>
+                    <a
+                        className="mb-4 cursor-pointer inline-flex items-left gap-2 rounded border border-indigo-600 bg-indigo-600 px-5 py-2 text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                        onClick={getNearestEdumpers}
+                    >
+                        <span className="text-sm font-medium"> Click Here </span>
+                        <svg
+                            className="h-5 w-5 rtl:rotate-180"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"
+                            />
+                        </svg>
+                    </a>
 
-                    <div style={{ height: '70vh', width: '100%', alignItems: "center" }}>
+                    <div style={{ height: '60vh', width: '100%' }}>
                         <GoogleMapReact
                             mapContainerClassName="rounded-xl"
                             bootstrapURLKeys={{ key: import.meta.env.VITE_GOOGLE_API_KEY }}

@@ -27,6 +27,7 @@ const Navbar = () => {
                     <a href="/about" className="mr-5 hover:text-green-600">About</a>
                     <a href="/edumpers" className="mr-5 hover:text-green-600">E-Dumpers</a>
                     <a href="/blogs" className="mr-5 hover:text-green-600">Blogs</a>
+                    <a href="/points" className="mr-5 hover:text-green-600">Points</a>
                 </nav>
                 {/* <button className="inline-flex items-center bg-gray-100 border-0 py-2 px-5 focus:outline-none hover:bg-green-300 rounded text-base mt-4 md:mt-0">
                     Login
