@@ -2,7 +2,18 @@ import { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-import Image1 from "../assets/images/about2.jpg"
+import img1 from "../assets/images/rewards/1.jpg"
+import img2 from "../assets/images/rewards/2.jpg"
+import img3 from "../assets/images/rewards/3.jpg"
+import img4 from "../assets/images/rewards/4.jpg"
+import img5 from "../assets/images/rewards/5.jpg"
+import img6 from "../assets/images/rewards/6.jpg"
+import img7 from "../assets/images/rewards/7.jpg"
+import img8 from "../assets/images/rewards/8.jpg"
+import img9 from "../assets/images/rewards/9.jpg"
+import img10 from "../assets/images/rewards/10.jpg"
+import img11 from "../assets/images/rewards/11.jpg"
+import img12 from "../assets/images/rewards/12.jpeg"
 
 const Edumpers = () => {
     const [size, setSize] = useState("Small Electronics");
@@ -103,7 +114,7 @@ const Edumpers = () => {
                             <dt className="order-last text-lg font-medium text-gray-500">
                                 Total Points
                             </dt>
-                            <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">{points}</dd>
+                            <dd className="text-4xl font-extrabold text-green-600 md:text-5xl">{points}</dd>
                         </div>
                     </div>
                 </div>
@@ -114,224 +125,168 @@ const Edumpers = () => {
                     <div className="flex flex-wrap -m-4">
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img1} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Certificate</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">1 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img2} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">T-Shirt</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">3 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img3} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">T-Shirt</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">3 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img4} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Poster</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">4 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img5} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Metal Badge</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">5 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img6} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Diary</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">6 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img7} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Cap</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">4 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img8} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Water Bottle</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">9 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img9} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">T-Shirt</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">8 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img10} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Hoodie</h2>
                                     <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img11} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Cup</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">10 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
                         </div>
                         <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
+                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img12} />
                             </a>
                             <div className="mt-4">
                                 <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">Dustbin</h2>
+                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">15 Points</h3>
                                 </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
-                                    Reedem
-                                </a>
-                            </div>
-                        </div>
-                        <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
-                            <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
-                            </a>
-                            <div className="mt-4">
-                                <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
-                                </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
-                                    Reedem
-                                </a>
-                            </div>
-                        </div>
-                        <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
-                            <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
-                            </a>
-                            <div className="mt-4">
-                                <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
-                                </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
-                                    Reedem
-                                </a>
-                            </div>
-                        </div>
-                        <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
-                            <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
-                            </a>
-                            <div className="mt-4">
-                                <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
-                                </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
-                                    Reedem
-                                </a>
-                            </div>
-                        </div>
-                        <div className="lg:w-1/6 md:w-1/2 p-4 w-full mt-8">
-                            <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={Image1} />
-                            </a>
-                            <div className="mt-4">
-                                <div className="flex flex-row items-center justify-between">
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
-                                    <h3 className="text-gray-500 text-xs tracking-widest title-font">12 Points</h3>
-                                </div>
-                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-400 font-semibold text-white hover:bg-green-600">
+                                <a href="/" className="mt-2 py-2 flex rounded-lg justify-center bg-green-500 font-semibold text-white hover:bg-green-600">
                                     Reedem
                                 </a>
                             </div>
