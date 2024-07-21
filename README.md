@@ -37,3 +37,27 @@ Step 4: Run the server in development mode
 
 $ npm run dev
 ```
+
+
+### For Backend
+```
+Step 1: Move to server folder
+
+$ cd server
+```
+
+```
+Step 2: Download all the npm packages
+
+$ npm install
+```
+
+```
+Step 3: Setup your .env file
+```
+
+```
+Step 4: Run the server in development mode
+
+$ npm run dev
+```
